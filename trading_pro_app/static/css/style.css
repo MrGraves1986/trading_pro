@@ -1,6 +1,8 @@
-#container {
+.container {
     margin: 0px auto;
     background-color:orange;
+    height: auto;
+    border: solid black;
 }
 
 h1 {
@@ -61,4 +63,13 @@ p {
 
 #disclaimer {
     text-align: center;
+}
+
+h3 {
+    font-style: italic;
+}
+
+#opener {
+    color: yellow;
+    background-color: navy;
 }
