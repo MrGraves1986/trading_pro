@@ -10,10 +10,12 @@ h1 {
     background-color:navy;
     text-align: center;
     font-size: 50px;
+    border: solid black;
 }
 
 h2 {
     text-align: center;
+    /* border: solid black; */
 }
 
 ul {
@@ -72,4 +74,52 @@ h3 {
 #opener {
     color: yellow;
     background-color: navy;
+}
+
+#calculation_package {
+    background-color: yellow;
+}
+
+#calc {
+    display: inline-block;
+    width: 200px;
+    background-color: yellow;
+    margin: 10px;
+    border: solid black;
+}
+
+#setup {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    border: solid black;
+}
+
+#stats {
+    display: inline-block;
+    width: 200px;
+    background-color: yellow;
+    margin: 10px;
+    border: solid black;
+}
+
+#purpose {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    color:yellow;
+    background-color:navy;
+    width: 700px;
+    /* margin-left: 5px; */
+    border: solid black;
+
+}
+
+label {
+    /* padding: 10px; */
+    margin: 10px;
+}
+input {
+    margin: 10px;
+
 }

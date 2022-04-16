@@ -5,3 +5,6 @@ def index(request):
 
 def philosophy(request):
     return render(request, "philosophy.html")    
+
+def calculate(request):
+    return render(request, "calculator.html")

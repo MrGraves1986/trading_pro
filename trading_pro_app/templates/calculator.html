@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Position Size Calculator</h1>
+        <h2>"The market can stay irrational longer than you can stay liquid."</h2>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/philosophy">Trading Philosophy</a></li>
+            <li><a href="">Indicators</a></li>
+            <li><a href="/calculate">Position Size Calculator</a></li>
+            <li><a href="">Trade Journal</a></li>
+        </ul>
+        </p>
+        <div id="calculation_package">
+            <div id="calc">
+                <label for="entry">Entry</label>
+                <input type="number" name="entry">
+                <label for="stop_loss">Stop-Loss</label>
+                <input type="number" name="stop_loss">
+                <label for="take_profit">Take Profit</label>
+                <input type="number" name="take_profit">
+                <input type="submit" value="Submit">
+            </div>
+            <p id="setup">The proposed trade setup yields the following:</p>
+            <div id="stats">
+                <label for="entry">Entry</label>
+                <input type="number" name="entry">
+                <label for="stop_loss">Stop-Loss</label>
+                <input type="number" name="stop_loss">
+                <label for="take_profit">Take Profit</label>
+                <input type="number" name="take_profit">
+                <input type="submit" value="Submit">
+            </div>
+            <div id="purpose">
+                <h2>Instructions:</h2>
+                <h3>1. Identify the entry. This is either where you will set a limit order or a spot order.</h3>
+                <h3>1. Identify your stop-loss. This is the price that you will sell (if long) or buy (if short) to close a trade and prevent further capital depletion.</h3>
+            </div>
+        </div>
+            <p></p>
+
+    </div>
+
+
+</body>
+</html>
