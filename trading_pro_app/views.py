@@ -8,3 +8,6 @@ def philosophy(request):
 
 def calculate(request):
     return render(request, "calculator.html")
+
+def risk(request):
+    return render(request, "risk_management.html")   

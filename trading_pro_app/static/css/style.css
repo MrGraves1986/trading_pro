@@ -15,7 +15,6 @@ h1 {
 
 h2 {
     text-align: center;
-    /* border: solid black; */
 }
 
 ul {
@@ -34,13 +33,12 @@ img {
     height: 350px;
     border: solid black;
     margin: 20px 20px 20px 75px;
-    
 }
 
 #any {
     display: inline-block;
     margin-left: 70px;
-    width: 750px;
+    width: 675px;
     height: 350px;
     vertical-align: top;
     background-color: yellow;
@@ -78,14 +76,17 @@ h3 {
 
 #calculation_package {
     background-color: yellow;
+    display: flex;
+    justify-content: center;
 }
 
 #calc {
     display: inline-block;
-    width: 200px;
     background-color: yellow;
-    margin: 10px;
+    /* margin: 10px; */
     border: solid black;
+    /* width: 210px; */
+    /* height: 437.5px; */
 }
 
 #setup {
@@ -93,33 +94,72 @@ h3 {
     vertical-align: top;
     margin: 10px;
     border: solid black;
+    margin-top: 110px;
 }
 
-#stats {
+#trade_stats {
     display: inline-block;
-    width: 200px;
-    background-color: yellow;
-    margin: 10px;
+    background-color: navy;
+    /* margin: 10px; */
     border: solid black;
+    vertical-align: top;
+    width: 350px;
+    /* height: 437.5px;  */
 }
 
-#purpose {
+#stat_header {
+    background-color: navy;
+    color: yellow;
+    margin: 0px;
+}
+
+h4 {
+    color: yellow;
+}
+
+#calc_instructions {
     display: inline-block;
     vertical-align: top;
-    margin: 10px;
+    /* margin: 10px; */
     color:yellow;
     background-color:navy;
-    width: 700px;
-    /* margin-left: 5px; */
-    border: solid black;
-
+    width: 350px;
+    height: 437.5px;
 }
 
+#topper {
+    margin: 0px;
+   }
+
 label {
-    /* padding: 10px; */
     margin: 10px;
 }
 input {
     margin: 10px;
+}
 
+.turkey {
+    height: 437.5px;
+    width: 210px;
+    margin: 30px 0px 5px 75px;
+}
+
+.trade {
+    background-color: navy;
+    /* height: 250px; */
+    width: 250px;
+    display: inline-block;
+    margin-left: 260px;
+    margin-bottom: 10px;
+    vertical-align: top;
+
+}
+
+.pupper {
+    padding: 9px;
+}
+
+h5 {
+    color: yellow;
+    padding: 10px;
 }

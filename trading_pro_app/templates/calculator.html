@@ -14,6 +14,7 @@
         <h2>"The market can stay irrational longer than you can stay liquid."</h2>
         <ul>
             <li><a href="/">Home</a></li>
+            <li><a href="/risk_management">Risk Management</a></li>
             <li><a href="/philosophy">Trading Philosophy</a></li>
             <li><a href="">Indicators</a></li>
             <li><a href="/calculate">Position Size Calculator</a></li>
@@ -21,7 +22,23 @@
         </ul>
         </p>
         <div id="calculation_package">
-            <div id="calc">
+            <div class="turkey" id="calc_instructions">
+                <h2 id="topper">Instructions:</h2>
+                <h3>1. Put in your total portfolio size.</h3>
+                <h3>2. Put in the % of your portfolio you are willing to risk.</h3>
+                <h3>3. Include your Entry, Stop-Loss & Take Profit (Target Profit).</h3>
+                <h3>4. Hit "Submit"</h3>
+                <h3>5. Review the trade statistics.</h3>
+                <h3>6. Based on the trade statistics, either set it up or walk away.</h3>
+                <h3>7. If you move to set up the trade, set your orders for the precise # of shares.</h3>
+            </div>
+            <div class="turkey "id="calc">
+                <label for="portfolio_size">Portfolio Size</label>
+                <input type="number" name="portfolio_size">
+                <label for="portfolio_risk">Portfolio Risk Percent</label>
+                <input type="number" name="portfolio_risk_percent">
+                <label for="portfolio_risk_dollar">Portfolio Risk ($)</label>
+                <input type="number" name="portfolio_risk_dollar">
                 <label for="entry">Entry</label>
                 <input type="number" name="entry">
                 <label for="stop_loss">Stop-Loss</label>
@@ -30,26 +47,34 @@
                 <input type="number" name="take_profit">
                 <input type="submit" value="Submit">
             </div>
-            <p id="setup">The proposed trade setup yields the following:</p>
-            <div id="stats">
-                <label for="entry">Entry</label>
-                <input type="number" name="entry">
-                <label for="stop_loss">Stop-Loss</label>
-                <input type="number" name="stop_loss">
-                <label for="take_profit">Take Profit</label>
-                <input type="number" name="take_profit">
-                <input type="submit" value="Submit">
-            </div>
-            <div id="purpose">
-                <h2>Instructions:</h2>
-                <h3>1. Identify the entry. This is either where you will set a limit order or a spot order.</h3>
-                <h3>1. Identify your stop-loss. This is the price that you will sell (if long) or buy (if short) to close a trade and prevent further capital depletion.</h3>
+            <div class="turkey" id="trade_stats">
+                <h2 id="stat_header">Trade Statistics</h2>
+                <h4>Total Profit on Trade: (TP-Entry) * # of shares</h4>
+                <h4>Profit Per Share: Total Profit/shares</h4>
+                <h4>Stop-Loss Per Share:</h4>
+                <h4>Risk to Reward Ratio:</h4>
+                <h4>Return on Trade: (TP-Entry)/Entry</h4>
+                <h4># of Shares: $Port risk/SL/share</h4>
+                <h4>Total Position Size: # of shares * entry</h4>
             </div>
         </div>
-            <p></p>
-
+        <p>***Pro Tip:If you want to maximize your trade, employ the concept of "Dollar Cost Averaging." This simply means you aim to buy at different price levels so that the average of the different price levels yields a lower overall entry rather than entering at one spot. See below for example on a trade calling for an ideal position of 100 shares:</p>
+        <div class="trade">
+            <h4 class="pupper">Non-Dollar Cost Averaged Trade:</h4>
+            <h5>Entry: $5.00</h5>
+            <h5>Take Profit: $6.50</h5>
+            <h5>Gain on Trade: 30%</h5>
+        </div>
+        <div class="trade">
+            <h4 class="pupper">Dollar Cost Averaged Trade:</h4>
+            <h5>Entry 1: 50 shares @ $5.00</h5>
+            <h5>Entry 2: 25 shares @ $4.90</h5>
+            <h5>Entry 3: $4.85</h5>
+            <h5>Average Entry Price: $4.85</h5>
+            <h5>Take Profit: $6.50</h5>
+            <h5>Gain on Trade: 30.91%</h5>
+        </div>
+        <p>Notice how the Dollar Cost approach yielded a slighly larger return. The placement of orders is completely up to the trader. If you really want to get in the position, perhaps you set your orders as the example shows, with the largest portion coming at the highest price to ensure you get a position. Or, if the coin is not as bullish, this would be where you might consider setting largest order at the lowest price in anticipation of a pullback. For a Long position, ALWAYS START SETTING ORDERS DOWN FROM THE ENTRY YOU USE TO CALCULATE THE TRADE. Notice how my entry was $5. That $5 is what I would have input into the "Entry" box above. Once you calculate the trade setup, DO NOT start changing it around. Work with the numbers given to you. This is why it is so important to have a plan.</p>
     </div>
-
-
 </body>
 </html>

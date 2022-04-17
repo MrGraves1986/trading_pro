@@ -5,4 +5,5 @@ urlpatterns = [
     path('', views.index),
     path('philosophy', views.philosophy),
     path('calculate', views.calculate),
+    path('risk_management', views.risk),
 ]
