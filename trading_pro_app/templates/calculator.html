@@ -33,23 +33,25 @@
                 <h3>7. If you move to set up the trade, set your orders for the precise # of shares.</h3>
             </div>
             <div class="turkey "id="calc">
-                <label for="portfolio_size">Portfolio Size</label>
-                <input type="number" name="portfolio_size">
-                <label for="portfolio_risk">Portfolio Risk Percent</label>
-                <input type="number" name="portfolio_risk_percent">
-                <label for="portfolio_risk_dollar">Portfolio Risk ($)</label>
-                <input type="number" name="portfolio_risk_dollar">
-                <label for="entry">Entry</label>
-                <input type="number" name="entry">
-                <label for="stop_loss">Stop-Loss</label>
-                <input type="number" name="stop_loss">
-                <label for="take_profit">Take Profit</label>
-                <input type="number" name="take_profit">
-                <input type="submit" value="Submit">
+                <form action="/master">
+                    <label for="portfolio_size">Portfolio Size</label>
+                    <input type="number" name="portfolio_size">
+                    <label for="portfolio_risk">Portfolio Risk Percent</label>
+                    <input type="number" name="portfolio_risk_percent">
+                    <label for="portfolio_risk_dollar">Portfolio Risk ($)</label>
+                    <input type="number" name="portfolio_risk_dollar">
+                    <label for="entry">Entry</label>
+                    <input type="number" name="entry">
+                    <label for="stop_loss">Stop-Loss</label>
+                    <input type="number" name="stop_loss">
+                    <label for="take_profit">Take Profit</label>
+                    <input type="number" name="take_profit">
+                    <input type="submit" value="Submit">
+                </form>
             </div>
             <div class="turkey" id="trade_stats">
                 <h2 id="stat_header">Trade Statistics</h2>
-                <h4>Total Profit on Trade: (TP-Entry) * # of shares</h4>
+                <!-- <h4>Total Profit on Trade: (TP-Entry) * # of shares</h4> -->
                 <h4>Profit Per Share: Total Profit/shares</h4>
                 <h4>Stop-Loss Per Share:</h4>
                 <h4>Risk to Reward Ratio:</h4>

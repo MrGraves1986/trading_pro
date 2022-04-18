@@ -6,4 +6,5 @@ urlpatterns = [
     path('philosophy', views.philosophy),
     path('calculate', views.calculate),
     path('risk_management', views.risk),
+    path('master', views.master),
 ]

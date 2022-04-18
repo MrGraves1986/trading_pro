@@ -11,3 +11,7 @@ def calculate(request):
 
 def risk(request):
     return render(request, "risk_management.html")   
+
+
+#This will need to be adjusted so the #'s from input boxes = the parameters. This is also going to redirect back to same page with results. Will need a "Clear/Reset" button feature.
+def master(request, ):
