@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+</head> 
 <body>
     <h1>Trade Stats:</h1>
-    <h4>Profit Per Share:</h4>
-    <h4>Stop-Loss Per Share:</h4>
-    <h4>Risk to Reward Ratio:</h4>
-    <h4>Return on Trade:</h4>
+    <h4>Profit Per Share:{{ request.session.profit_per_share }}</h4>
+    <h4>Stop-Loss Per Share:{{ request.session.stop_loss_per_share }}</h4>
+    <h4>Risk to Reward Ratio:{{ request.session.risk_to_reward_ratio }}</h4>
+    <h4>Return on Trade:{{ request.session.return_on_trade }}</h4>
     <h4># of Shares:</h4>
-    <h4>Total Position Size:</h4>
+    <h4>Total Position Size:{{ request.session.total_position_size }}</h4>
     <a href="/calculate">Back to Calculator</a>
 </body>
 </html>
