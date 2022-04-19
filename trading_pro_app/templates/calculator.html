@@ -36,17 +36,17 @@
                 <form action="/master" method="POST">
                     {% csrf_token %}
                     <label for="account_size">Account Size</label>
-                    <input type="number" step="any" name="account_size">
-                    <!-- <label for="account_risk_percent">Account Risk Percentage</label>
-                    <input type="number"step = "0.01" name="account_risk_percent"> -->
-                    <label for="account_risk_dollar">Account Risk ($)</label>
-                    <input type="number" name="account_risk_dollar">
+                    <input type="number" step="0.01" name="account_size">
+                    <label for="account_risk_percent">Account Risk Percent</label>
+                    <input type="number" step="0.01" name="account_risk_percent">
+                    <!-- <label for="account_risk_dollar">Account Risk ($)</label>
+                    <input type="number" name="account_risk_dollar"> -->
                     <label for="entry">Entry</label>
-                    <input type="number" name="entry">
+                    <input type="number" step="0.01" name="entry">
                     <label for="stop_loss">Stop-Loss</label>
-                    <input type="number" name="stop_loss">
+                    <input type="number" step="0.01" name="stop_loss">
                     <label for="take_profit">Take Profit</label>
-                    <input type="number" name="take_profit">
+                    <input type="number" step="0.01" name="take_profit">
                     <input type="submit" value="Submit">
                 </form>
             </div>
