@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <h1>Trading Pro</h1>
-        <h2>"Everybody knows what they're doing...as long as they're winning."</h2>
+    <div class="container">
+        <h1>Trading Pro</h1>
+        <h2>"Everybody knows what they're doing as long as they're winning."</h2>
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/risk_management">Risk Management</a></li>
@@ -19,5 +20,21 @@
             <li><a href="/calculate">Position Size Calculator</a></li>
             <li><a href="">Trade Journal</a></li>
         </ul>
+        <h2 id="opener">Where a lot of new traders fail is with risk/capital management. This is one reason I included a trading calculator for precise trade setups to ensure you stay ahead even when you lose a series of successive trades. Below are some key concepts to understand and learn through practice prior to trading with live money:</h2>
+        <div class="risk_principle">
+            <h2 id="opener">What is risk management and what does it look like?</h2>
+            <h3>Said another way, risk management is about mitigating your downside, or, reducing the adverse impact to your portfolio if a trade does not pan out.</h3>
+            <h3>In order to accomplish this, you need to start by defining your portfolio risk. This means, for every trade that you make, how much are you willing and able to completely lose?</h3>
+            <h3>You might say, "I can lose my entire account as this is money I can live without." While that may be true, that means it may only take 1 trade to completely bankrupt you which is no good if you wish to enjoy the market profitably for the long-term.</h3>
+            <h3>A good rule is the 1 - 2% rule. This means on each trade, you stand to lose 1% or 2% of your total portfolio.</h3>
+            <h3>The reason for this being a commonly followed rule is that statistically you will not lose 50 trades in a row which a 2% portfolio risk allows you (50 trades X 2% of portfolio = 100% of portfolio).</h3>
+            <h3>To make sure stay profitable even if you lose a majority of your trades, look next door and I'll explain the concept of "Position Sizing" and Risk-to-Reward Ratio.</h3>
+        </div>
+        <div class="risk_principle">
+            <h2 id="opener">Risk-to-Reward Ratio & Position Sizing</h2>
+            <h3>Risk-to-Reward Ratio (R:R) is a measurement of how much money you are risk in order to earn a specified amount. It is calculated using the profit and stop-loss per share. If your trade setup yields a R:R of 2, that means for every $1 you are risking, you stand to make $2.</h3>
+            <h3>A more conservative approach will tell you to only take trades that have a R:R of atleast 2. Why is this?</h3>
+            <h3>Remember our explanation about the 1-2% rule? If your R:R is atleast 2, then you can be profitable even if you are winning less than half of your trades.</h3>
+    </div>    
 </body>
 </html>
