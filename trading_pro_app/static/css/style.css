@@ -171,10 +171,23 @@ h5 {
 }
 
 .risk_principle {
-    /* height: 50px; */
+    height: 633px;
     width: 500px;
     display: inline-block;
     background-color: navy;
     padding: 5px;
     vertical-align: top;
+    margin-left: 5px;
+
+}
+
+#example_1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#r_r_examples {
+    display: inline-block;
+    background-color: navy;
+    width: 265px;
 }
