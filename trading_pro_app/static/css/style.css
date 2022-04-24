@@ -171,7 +171,7 @@ h5 {
 }
 
 .risk_principle {
-    height: 633px;
+    height: 645px;
     width: 500px;
     display: inline-block;
     background-color: navy;
@@ -190,4 +190,5 @@ h5 {
     display: inline-block;
     background-color: navy;
     width: 265px;
+    height: 655px;
 }

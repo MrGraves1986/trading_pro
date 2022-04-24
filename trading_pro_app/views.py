@@ -45,3 +45,6 @@ def master(request):
 
 def trade_setup(request):
     return render(request, 'trade_stats.html')    
+
+def indicators(request):
+    return render(request, "indicators.html")    
