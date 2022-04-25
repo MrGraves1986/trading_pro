@@ -192,3 +192,10 @@ h5 {
     width: 265px;
     height: 655px;
 }
+
+.indicator_example {
+    height: 100px;
+    width: 100px;
+    background-color: navy;
+    display: inline-block;
+}
