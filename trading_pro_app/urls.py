@@ -9,4 +9,5 @@ urlpatterns = [
     path('risk_management', views.risk),
     path('master', views.master),
     path('indicators', views.indicators),
+    path('rsi_examples', views.rsi),
 ]

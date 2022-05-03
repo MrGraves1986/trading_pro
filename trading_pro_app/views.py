@@ -48,3 +48,6 @@ def trade_setup(request):
 
 def indicators(request):
     return render(request, "indicators.html")    
+
+def rsi(request):
+    return render(request, "rsi_examples.html")    
