@@ -1,5 +1,6 @@
 from multiprocessing import context
 from django.shortcuts import render, redirect
+from .models import *
 # import locale ***Need to explore this more and settting it up
 
 def index(request):
