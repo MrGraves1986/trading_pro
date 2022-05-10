@@ -194,10 +194,11 @@ h5 {
 }
 
 .indicator_example {
-    /* height: 100px; */
+    height: 600px;
     width: 300px; 
     background-color: navy;
     display: inline-block;
+    vertical-align: top;
 }
 
 .example_link {

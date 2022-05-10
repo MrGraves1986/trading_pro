@@ -51,4 +51,7 @@ def indicators(request):
     return render(request, "indicators.html")    
 
 def rsi(request):
-    return render(request, "rsi_examples.html")    
+    return render(request, "rsi_examples.html") 
+
+def moving_av(request):
+    return render(request, "moving_av_examples.html" )       
