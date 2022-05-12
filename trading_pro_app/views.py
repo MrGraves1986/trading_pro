@@ -55,3 +55,6 @@ def rsi(request):
 
 def moving_av(request):
     return render(request, "moving_av_examples.html" )       
+
+def ema(request):
+    return render(request, "ema_examples.html")
