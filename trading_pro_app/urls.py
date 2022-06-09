@@ -12,4 +12,5 @@ urlpatterns = [
     path('rsi_examples', views.rsi),
     path('moving_av_examples', views.moving_av),
     path('ema_examples', views.ema),
+    path('other_examples', views.others),
 ]

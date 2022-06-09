@@ -58,3 +58,6 @@ def moving_av(request):
 
 def ema(request):
     return render(request, "ema_examples.html")
+
+def others(request):
+    return render(request, "other_examples.html")
