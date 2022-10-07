@@ -61,3 +61,6 @@ def ema(request):
 
 def others(request):
     return render(request, "other_examples.html")
+
+def journal(request):
+    return render(request, "trade_log.html")

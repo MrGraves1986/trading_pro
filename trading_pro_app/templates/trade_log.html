@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Trade Log!</h1>
+        <h2>"Have a plan and stick to it. Sometimes the best plan is no position at all."</h2>
+        <ul>
+
+            <!-- <a class="btn" href="/about_us">About Us</a> -->
+            <li><a href="/">Home</a></li>
+            <li><a href="/risk_management">Risk Management</a></li>
+            <li><a href="/philosophy">Trading Philosophy</a></li>
+            <li><a href="/indicators">Indicators</a></li>
+            <li><a href="/calculate">Position Size Calculator</a></li>
+            <li><a href="/journal">Trade Journal</a></li>
+        </ul>
+    </div>
 </body>
 </html>
